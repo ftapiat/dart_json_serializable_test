@@ -15,8 +15,7 @@ void main(List<String> arguments) async {
   final apiResponse = ApiResponseModel.fromJson(fileData, fromJsonData);
 
   // Por lo tanto la función d.toJson() es autocompletada por el IDE
-  print(apiResponse.toJson((d) => d.toJson()));
-  print(apiResponse.data.template.steps[0].name); // TODO Utf-8
+  print(jsonEncode(apiResponse.toJson((d) => d.toJson())));
 }
 
 Future<Map<String, dynamic>> _getDataFromFile() async {

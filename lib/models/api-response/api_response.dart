@@ -1,11 +1,12 @@
 import 'package:json_annotation/json_annotation.dart';
+import './status/api_response_status.dart';
 
 part 'api_response.g.dart';
 
 @JsonSerializable(genericArgumentFactories: true)
 class ApiResponseModel<T> {
   final String message;
-  final String status;
+  final ApiResponseStatus status;
   final T data;
 
   ApiResponseModel({
@@ -19,3 +20,4 @@ class ApiResponseModel<T> {
 
   Map<String, dynamic> toJson(Object Function(T value) toJsonT) => _$ApiResponseModelToJson(this, toJsonT);
 }
+

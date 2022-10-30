@@ -1,4 +1,4 @@
-import 'package:dart_json_coverter_test/models/step/step.dart';
+import '../step/step.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 part 'template.g.dart';

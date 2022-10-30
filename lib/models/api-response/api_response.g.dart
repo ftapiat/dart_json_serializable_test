@@ -12,7 +12,7 @@ ApiResponseModel<T> _$ApiResponseModelFromJson<T>(
 ) =>
     ApiResponseModel<T>(
       message: json['message'] as String,
-      status: json['status'] as String,
+      status: $enumDecode(_$ApiResponseStatusEnumMap, json['status']),
       data: fromJsonT(json['data']),
     );
 
@@ -22,6 +22,11 @@ Map<String, dynamic> _$ApiResponseModelToJson<T>(
 ) =>
     <String, dynamic>{
       'message': instance.message,
-      'status': instance.status,
+      'status': _$ApiResponseStatusEnumMap[instance.status]!,
       'data': toJsonT(instance.data),
     };
+
+const _$ApiResponseStatusEnumMap = {
+  ApiResponseStatus.ok: 'OK',
+  ApiResponseStatus.error: 'Error',
+};

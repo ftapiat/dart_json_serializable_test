@@ -1,0 +1,341 @@
+{
+  "message": "OK",
+  "status": "OK",
+  "data": {
+    "template": {
+      "id": 3,
+      "name": "Proyectos fondos internos",
+      "label": "Proyectos fondos internos",
+      "steps": [
+        {
+          "id": 10,
+          "name": "Proyecto con Factibilidad TÃ©cnica y Visto Bueno Alcalde",
+          "label": "Proyecto con Factibilidad TÃ©cnica y Visto Bueno Alcalde",
+          "index": 0,
+          "is_relevant": true,
+          "days_type_to_count": "business",
+          "unit_in_charge": {
+            "id": 2,
+            "name": "Proyectos",
+            "label": "Proyectos"
+          }
+        },
+        {
+          "id": 11,
+          "name": "Inicio tramitaciÃ³n DÂ°AÂ° Aprobatorio Municipal",
+          "label": "Inicio tramitaciÃ³n DÂ°AÂ° Aprobatorio Municipal",
+          "index": 1,
+          "is_relevant": false,
+          "days_type_to_count": null,
+          "unit_in_charge": {
+            "id": 2,
+            "name": "Proyectos",
+            "label": "Proyectos"
+          }
+        },
+        {
+          "id": 12,
+          "name": "DÂ°AÂ° Municipal AprobaciÃ³n de Proyecto",
+          "label": "DÂ°AÂ° Municipal AprobaciÃ³n de Proyecto",
+          "index": 2,
+          "is_relevant": true,
+          "days_type_to_count": "business",
+          "unit_in_charge": {
+            "id": 2,
+            "name": "Proyectos",
+            "label": "Proyectos"
+          }
+        },
+        {
+          "id": 13,
+          "name": "DÂ°AÂ° Municipal AprobaciÃ³n de Proyecto",
+          "label": "DÂ°AÂ° Municipal AprobaciÃ³n de Proyecto",
+          "index": 3,
+          "is_relevant": true,
+          "days_type_to_count": "business",
+          "unit_in_charge": {
+            "id": 2,
+            "name": "Proyectos",
+            "label": "Proyectos"
+          }
+        },
+        {
+          "id": 14,
+          "name": "EnvÃ­o Bases a AsesorÃ­a JurÃ­dica",
+          "label": "EnvÃ­o Bases a AsesorÃ­a JurÃ­dica",
+          "index": 4,
+          "is_relevant": false,
+          "days_type_to_count": null,
+          "unit_in_charge": {
+            "id": 1,
+            "name": "Licitaciones",
+            "label": "Licitaciones"
+          }
+        },
+        {
+          "id": 15,
+          "name": "VisaciÃ³n AsesorÃ­a JurÃ­dica",
+          "label": "VisaciÃ³n AsesorÃ­a JurÃ­dica",
+          "index": 5,
+          "is_relevant": true,
+          "days_type_to_count": "business",
+          "unit_in_charge": {
+            "id": 1,
+            "name": "Licitaciones",
+            "label": "Licitaciones"
+          }
+        },
+        {
+          "id": 16,
+          "name": "EnvÃ­o DÂ°AÂ° Llamado/ContrataciÃ³n DAF/SALUD/EDUCACIÃN",
+          "label": "EnvÃ­o DÂ°AÂ° Llamado/ContrataciÃ³n DAF/SALUD/EDUCACIÃN",
+          "index": 6,
+          "is_relevant": false,
+          "days_type_to_count": null,
+          "unit_in_charge": {
+            "id": 1,
+            "name": "Licitaciones",
+            "label": "Licitaciones"
+          }
+        },
+        {
+          "id": 17,
+          "name": "DÂ°AÂ° Aprueba Llamado LicitaciÃ³n o ContrataciÃ³n",
+          "label": "DÂ°AÂ° Aprueba Llamado LicitaciÃ³n o ContrataciÃ³n",
+          "index": 7,
+          "is_relevant": true,
+          "days_type_to_count": "business",
+          "unit_in_charge": {
+            "id": 1,
+            "name": "Licitaciones",
+            "label": "Licitaciones"
+          }
+        },
+        {
+          "id": 18,
+          "name": "PublicaciÃ³n Mercado PÃºblico",
+          "label": "PublicaciÃ³n Mercado PÃºblico",
+          "index": 8,
+          "is_relevant": false,
+          "days_type_to_count": null,
+          "unit_in_charge": {
+            "id": 1,
+            "name": "Licitaciones",
+            "label": "Licitaciones"
+          }
+        },
+        {
+          "id": 19,
+          "name": "Apertura",
+          "label": "Apertura",
+          "index": 9,
+          "is_relevant": true,
+          "days_type_to_count": "correlative",
+          "unit_in_charge": {
+            "id": 1,
+            "name": "Licitaciones",
+            "label": "Licitaciones"
+          }
+        },
+        {
+          "id": 20,
+          "name": "Solicitud aclaraciones",
+          "label": "Solicitud aclaraciones",
+          "index": 10,
+          "is_relevant": false,
+          "days_type_to_count": null,
+          "unit_in_charge": {
+            "id": 1,
+            "name": "Licitaciones",
+            "label": "Licitaciones"
+          }
+        },
+        {
+          "id": 21,
+          "name": "Respuesta aclaraciones",
+          "label": "Respuesta aclaraciones",
+          "index": 11,
+          "is_relevant": false,
+          "days_type_to_count": null,
+          "unit_in_charge": {
+            "id": 1,
+            "name": "Licitaciones",
+            "label": "Licitaciones"
+          }
+        },
+        {
+          "id": 22,
+          "name": "Firmas ComisiÃ³n Apertura",
+          "label": "Firmas ComisiÃ³n Apertura",
+          "index": 12,
+          "is_relevant": false,
+          "days_type_to_count": null,
+          "unit_in_charge": {
+            "id": 1,
+            "name": "Licitaciones",
+            "label": "Licitaciones"
+          }
+        },
+        {
+          "id": 23,
+          "name": "EnvÃ­o EvaluaciÃ³n a ComisiÃ³n TÃ©cnica",
+          "label": "EnvÃ­o EvaluaciÃ³n a ComisiÃ³n TÃ©cnica",
+          "index": 13,
+          "is_relevant": true,
+          "days_type_to_count": "business",
+          "unit_in_charge": {
+            "id": 1,
+            "name": "Licitaciones",
+            "label": "Licitaciones"
+          }
+        },
+        {
+          "id": 24,
+          "name": "Firmas ComisiÃ³n de EvaluaciÃ³n",
+          "label": "Firmas ComisiÃ³n de EvaluaciÃ³n",
+          "index": 14,
+          "is_relevant": false,
+          "days_type_to_count": null,
+          "unit_in_charge": {
+            "id": 1,
+            "name": "Licitaciones",
+            "label": "Licitaciones"
+          }
+        },
+        {
+          "id": 25,
+          "name": "Firma Alcalde",
+          "label": "Firma Alcalde",
+          "index": 15,
+          "is_relevant": true,
+          "days_type_to_count": "business",
+          "unit_in_charge": {
+            "id": 1,
+            "name": "Licitaciones",
+            "label": "Licitaciones"
+          }
+        },
+        {
+          "id": 26,
+          "name": "EnvÃ­o DÂ°AÂ° AdjudicaciÃ³n DAF/SALUD/EDUCACIÃN",
+          "label": "EnvÃ­o DÂ°AÂ° AdjudicaciÃ³n DAF/SALUD/EDUCACIÃN",
+          "index": 16,
+          "is_relevant": false,
+          "days_type_to_count": null,
+          "unit_in_charge": {
+            "id": 1,
+            "name": "Licitaciones",
+            "label": "Licitaciones"
+          }
+        },
+        {
+          "id": 27,
+          "name": "DÂ°AÂ° AdjudicaciÃ³n",
+          "label": "DÂ°AÂ° AdjudicaciÃ³n",
+          "index": 17,
+          "is_relevant": true,
+          "days_type_to_count": "business",
+          "unit_in_charge": {
+            "id": 1,
+            "name": "Licitaciones",
+            "label": "Licitaciones"
+          }
+        },
+        {
+          "id": 28,
+          "name": "NotificaciÃ³n DÂ°AÂ° a SECPLA",
+          "label": "NotificaciÃ³n DÂ°AÂ° a SECPLA",
+          "index": 18,
+          "is_relevant": false,
+          "days_type_to_count": null,
+          "unit_in_charge": {
+            "id": 1,
+            "name": "Licitaciones",
+            "label": "Licitaciones"
+          }
+        },
+        {
+          "id": 29,
+          "name": "PublicaciÃ³n AdjudicaciÃ³n en Mercado PÃºblico",
+          "label": "PublicaciÃ³n AdjudicaciÃ³n en Mercado PÃºblico",
+          "index": 19,
+          "is_relevant": false,
+          "days_type_to_count": null,
+          "unit_in_charge": {
+            "id": 1,
+            "name": "Licitaciones",
+            "label": "Licitaciones"
+          }
+        },
+        {
+          "id": 30,
+          "name": "Firma Contrato y DÂ°AÂ° aprobaciÃ³n",
+          "label": "Firma Contrato y DÂ°AÂ° aprobaciÃ³n",
+          "index": 20,
+          "is_relevant": true,
+          "days_type_to_count": "business",
+          "unit_in_charge": {
+            "id": 1,
+            "name": "Licitaciones",
+            "label": "Licitaciones"
+          }
+        }
+      ]
+    },
+    "units": [
+      {
+        "id": 1,
+        "name": "Licitaciones",
+        "label": "Licitaciones",
+        "users": [
+          {
+            "is_admin": false,
+            "rut": "410340194",
+            "rut_formatted": "41.034.019-4",
+            "first_name": "Minnie",
+            "middle_name": "Prof. Haskell Steuber Sr.",
+            "last_name": "Davis",
+            "mother_last_name": "Mayer",
+            "full_name": "Minnie Prof. Haskell Steuber Sr. Davis Mayer",
+            "email": "omer96@example.net",
+            "phone": null,
+            "confirmed_citizen": false
+          },
+          {
+            "is_admin": true,
+            "rut": "31252788K",
+            "rut_formatted": "31.252.788-K",
+            "first_name": "Heather",
+            "middle_name": "Abigail Stokes",
+            "last_name": "Wehner",
+            "mother_last_name": "Glover",
+            "full_name": "Heather Abigail Stokes Wehner Glover",
+            "email": "jaden.stroman@example.org",
+            "phone": null,
+            "confirmed_citizen": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Proyectos",
+        "label": "Proyectos",
+        "users": [
+          {
+            "is_admin": false,
+            "rut": "241529614",
+            "rut_formatted": "24.152.961-4",
+            "first_name": "Laurel",
+            "middle_name": "Myrl Vandervort",
+            "last_name": "Kshlerin",
+            "mother_last_name": "Trantow",
+            "full_name": "Laurel Myrl Vandervort Kshlerin Trantow",
+            "email": "edward25@example.org",
+            "phone": null,
+            "confirmed_citizen": false
+          }
+        ]
+      }
+    ]
+  }
+}
